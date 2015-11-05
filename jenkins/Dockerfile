@@ -1,4 +1,4 @@
-FROM jenkins
+FROM jenkins:metadata
 MAINTAINER OME
 
 USER root
