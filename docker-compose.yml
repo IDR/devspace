@@ -18,9 +18,10 @@ slave:
     build: slave
     links:
         - pg
-        - jenkins
+        - jenkins:jenkins
     volumes:
         - ./slave:home/jenkins-slave
+        - /ome:/ome:ro
     volumes_from:
         - git
     environment:
