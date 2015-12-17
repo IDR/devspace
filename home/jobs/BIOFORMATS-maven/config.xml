@@ -52,12 +52,12 @@
         <artifactoryUrl>http://artifacts.openmicroscopy.org/artifactory</artifactoryUrl>
         <deployReleaseRepository>
           <keyFromText>ome.metadata</keyFromText>
-          <keyFromSelect>ome.experimental</keyFromSelect>
+          <keyFromSelect>ome.metadata</keyFromSelect>
           <dynamicMode>true</dynamicMode>
         </deployReleaseRepository>
         <deploySnapshotRepository>
           <keyFromText>ome.metadata</keyFromText>
-          <keyFromSelect>ome.experimental</keyFromSelect>
+          <keyFromSelect>ome.metadata</keyFromSelect>
           <dynamicMode>true</dynamicMode>
         </deploySnapshotRepository>
         <stagingPlugin>
